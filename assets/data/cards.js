@@ -335,6 +335,36 @@ module.exports = {
     faction: "neutral",
     type: 0
   },
+	"geralt": {
+		name: "Geralt of Rivia",
+		power: 15,
+		ability: "hero",
+		img: "geralt",
+		faction: "neutral",
+		type: 0
+	},
+	"ciri": {
+		name: "Cirilla Fiona Elen Rianno",
+		power: 15,
+		ability: "hero",
+		img: "ciri",
+		faction: "neutral",
+		type: 0
+	},
+	"yennefer": {
+		name: "Yennefer of Vengerberg",
+		power: 7,
+		ability: ["hero", "medic"],
+		img: "yen",
+		faction: "neutral",
+		type: 1
+	},
+	"triss": {
+		name: "Triss Merigold",
+		power: 7,
+		ability: "hero",
+		img: "triss"
+	},
 
   "francesca_pureblood_elf": {
     name: "Francesca, Pureblood Elf",
@@ -428,7 +458,7 @@ module.exports = {
     name: "Elven Skirmisher",
     power: 2,
     ability: "muster",
-    musterType: "skirmisher",
+    musterType: "elven_skirmisher",
     img: "elven_skirmisher2",
     faction: "scoiatael",
     type: 1
@@ -437,7 +467,7 @@ module.exports = {
     name: "Dwarven Skirmisher",
     power: 3,
     ability: "muster",
-    musterType: "skirmisher",
+    musterType: "dwarven_skirmisher",
     img: "skirmisher2",
     faction: "scoiatael",
     type: 0
@@ -804,7 +834,7 @@ module.exports = {
     faction: "monster",
     type: 1
   },
-  /*"vampire_katakan": {
+  "vampire_katakan": {
     name: "Vampire: Katakan",
     power: 5,
     ability: "muster",
@@ -812,7 +842,7 @@ module.exports = {
     img: "vampire_katakan",
     faction: "monster",
     type: 0
-  },*/
+  },
   "crone_whispess": {
     name: "Crone: Whispess",
     power: 6,
