@@ -30,7 +30,7 @@ module.exports = {
 		"foltest_siegemaster",
 		
 		"philippa_eilhart",
-		"esterad_thyssen"
+		"esterad_thyssen",
       "vernon_roche",
       "john_natalis",
       "dandelion",
@@ -201,7 +201,7 @@ module.exports = {
 		"arachas",
 		"arachas_behemoth",
 		"fire_elemental",
-        "earth_elemental"
+        "earth_elemental",
 		"ghoul",
 		"ghoul",
 		"ghoul",

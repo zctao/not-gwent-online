@@ -363,7 +363,9 @@ module.exports = {
 		name: "Triss Merigold",
 		power: 7,
 		ability: "hero",
-		img: "triss"
+		img: "triss",
+		faction: "neutral",
+		type: 0
 	},
 
   "francesca_pureblood_elf": {

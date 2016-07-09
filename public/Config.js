@@ -2,7 +2,7 @@
 var Config = {};
 
 Config.Server = {
-  "hostname": "127.0.0.1",
+  "hostname": "10.0.0.10",
   "port": 16918
 };
 
